@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "type": "module",
   "private": true,
-  "license": "MIT"
+  "license": "MIT",
   "description": "Modern frontend UI library for enterprise applications."
 }
