@@ -1,20 +1,8 @@
 {
   "version": 2,
-  "functions": {
-    "api/gateway.js": {
-      "memory": 128,
-      "maxDuration": 60
-    }
-  },
+  "name": "fortrein",
   "rewrites": [
-    {
-      "source": "/my-sync(.*)",
-      "destination": "/api/gateway"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/(.*)", "destination": "/api/foreign" }
   ],
   "trailingSlash": false
 }
